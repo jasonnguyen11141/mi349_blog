@@ -8,16 +8,43 @@ body{
 h1{
 font-size: 3em;
 margin: 0;
+padding: 20px
+}
+
+h2{
+    display: inline;
+    padding: 20px;
+    text-align: right;
+}
+h3{
+    font-size: 25px;
 }
 
 p{
 line-height: 1.4em;
+
+}
+section{
+    display: flex;
 }
 
-#blog{
+
+.blog-post1{
+    margin: 20px;
+    padding: 20px;
+
+}
+.blog-post2{
+    margin: 20px;
+    padding: 20px;
     
 }
-
-.blog-post{
-    border-bottom: 1px solid #ccc;
+ul{
+    position: relative;
+    bottom: 10px;
+    right: 25px;
+}
+table,th,td{
+    border: 1px solid #544d4d;
+    text-align: left;
 }
