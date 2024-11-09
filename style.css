@@ -18,6 +18,7 @@ h2{
 }
 h3{
     font-size: 25px;
+
 }
 
 p{
@@ -47,4 +48,16 @@ ul{
 table,th,td{
     border: 1px solid #544d4d;
     text-align: left;
+}
+form{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+button{
+
+    display: flex;
+    border-color: green;
+    background-color: green;
+    color: white;
+    width: 1;
 }
