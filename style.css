@@ -9,11 +9,14 @@ h1{
     font-size: 3em;
     margin: 0;
     padding: 20px;
+    font-family: c;
 }
 
 h2{
     display: inline;
-    padding: 20px;
+    padding: 15px;
+    color: #000;
+    text-decoration: none;
  
 }
 h3{
@@ -26,6 +29,7 @@ line-height: 1.4em;
 }
 section{
     display: flex;
+    background-color: #e6ccb2;
 }
 
 
@@ -63,8 +67,10 @@ button{
     border-radius: 5px;
 }
 .title{
-    background-color: #e6ccb2;
+    background-color: #ddb892;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
+
+    
